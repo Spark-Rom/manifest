@@ -113,6 +113,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />
+  <remove-project name="platform/system/iorap" />
   <remove-project name="platform/system/libufdt" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
@@ -225,6 +226,7 @@
   <project path="system/netd" name="system_netd" remote="spark" />
   <project path="system/security" name="system_security" remote="spark" />
   <project path="system/sepolicy" name="system_sepolicy" remote="spark" />
+  <project path="system/iorap" name="system_iorap" remote="spark" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="evo" />
   <project path="system/update_engine" name="system_update_engine" remote="spark" />
   <project path="system/vold" name="system_vold" remote="spark" />
