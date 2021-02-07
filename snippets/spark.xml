@@ -140,6 +140,7 @@
 
   <!-- External repos -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="spark" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="spark" />
   <project path="external/guice" name="external_guice" remote="evo" />
   <project path="external/libcxx" name="external_libcxx" remote="evo" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="spark" />
@@ -201,6 +202,7 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="spark" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="spark" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="evo" />
 
   <!-- Prebuilt repos -->
