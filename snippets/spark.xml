@@ -98,6 +98,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
@@ -150,7 +151,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="spark" />
 
   <!-- General repos -->
-  <project path="art" name="art" remote="evo" />
+  <project path="art" name="art" remote="spark" />
   <project path="bionic" name="bionic" remote="spark" />
   <project path="bootable/recovery" name="bootable_recovery" remote="spark" />
   <project path="build/make" name="build_make" remote="spark" >
@@ -183,12 +184,13 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="spark" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="evo" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="spark" />
   <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="spark" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="spark" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="spark" />
@@ -199,9 +201,9 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="octavi" clone-depth="1" />
 
   <!-- Providers repos -->
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="evo" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="evo" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="evo" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="spark" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="spark" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="spark" />
 
   <!-- Services repos -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
