@@ -12,7 +12,7 @@
            fetch="https://github.com/Evolution-X"
            revision="refs/heads/elle" />
 
-  <remote  name="spark-devices"
+  <remote  name="devices"
            fetch="https://github.com/Spark-Devices"
            revision="refs/heads/fire" />
 
