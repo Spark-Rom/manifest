@@ -171,6 +171,7 @@
   <project path="manifest" name="manifest" remote="spark" />
   <project path="platform_testing" name="platform_testing" remote="spark" />
   <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
+  <project path="vendor/opstuff" name="vendor_opstuff" remote="spark" />  
   <project path="vendor/gms" name="vendor_gms" groups="vendor" clone-depth="1" remote="spark-gitlab" />
 
   <!-- CAF Hals -->
