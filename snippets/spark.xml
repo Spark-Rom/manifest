@@ -3,7 +3,10 @@
 
   <remote  name="github"
            fetch="https://github.com" />
-
+  
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+  
   <remote name="spark"
           fetch="https://github.com/Spark-Rom"
           revision="refs/heads/fire"/>
