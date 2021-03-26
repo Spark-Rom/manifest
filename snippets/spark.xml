@@ -193,6 +193,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="spark" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="spark" />
+  <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="spark" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="spark" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
