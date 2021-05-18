@@ -200,6 +200,7 @@
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="spark" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="spark" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="spark" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
