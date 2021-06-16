@@ -209,7 +209,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="spark" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="spark" />
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="evo" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="spark" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="spark" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="spark" />
 
