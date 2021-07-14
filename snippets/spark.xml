@@ -124,7 +124,6 @@
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
-  <remove-project name="platform/system/linkerconfig"/>
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
@@ -133,7 +132,6 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/libyuv"/>
   <remove-project name="platform/tools/metalava" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
@@ -152,7 +150,6 @@
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="spark" />
   <project path="external/selinux" name="external_selinux" remote="evo" />
   <project path="external/tinycompress" name="external_tinycompress" remote="spark" />
-  <project name="platform_external_libyuv" path="external/libyuv" remote="spark" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
@@ -241,7 +238,6 @@
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="evo" />
   <project path="system/update_engine" name="system_update_engine" remote="spark" />
   <project path="system/vold" name="system_vold" remote="spark" />
-  <project name="platform_system_linkerconfig" path="system/linkerconfig" remote="spark" />
 
   <!-- Tools repos -->
   <project path="tools/metalava" name="tools_metalava" remote="evo" />
