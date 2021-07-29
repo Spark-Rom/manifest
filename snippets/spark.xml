@@ -228,6 +228,7 @@
   <!-- Services repos -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="spark" revision="fire"/>
 
   <!-- System repos -->
   <project path="system/bt" name="system_bt" remote="spark" />
