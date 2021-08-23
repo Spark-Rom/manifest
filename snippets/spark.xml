@@ -103,6 +103,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -208,6 +209,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
   <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="spark" />
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="spark" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="spark" />
