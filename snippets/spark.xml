@@ -199,6 +199,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="spark" />
   <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
+  <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="spark" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="spark" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="spark" />
