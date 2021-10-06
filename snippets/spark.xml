@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+  
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+  
+  <remote name="spark"
+          fetch="https://github.com/Spark-Rom"
+          revision="refs/heads/spark"/>
+
+  <remote  name="evo"
+           fetch="https://github.com/Evolution-X"
+           revision="refs/heads/elle" />
+
+  <remote  name="devices"
+           fetch="https://github.com/Spark-Devices"
+           revision="refs/heads/spark" />
+
+  <remote  name="spark-gitlab"
+           fetch="https://gitlab.com/spkal01"
+           revision="refs/heads/fire" />
+
+  <remote  name="fluid-temp"
+           fetch="https://github.com/Project-Fluid-Testing/"
+           revision="fluid-12" />
+
+  <!-- Rootdir -->
+  <project path="bionic" name="bionic" groups="pdk" remote="spark" />
+  <project path="manifest" name="manifest" remote="spark" />
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="spark" />
+
+  <!-- Build -->
+  <project path="build/make" name="build_make" groups="pdk" remote="spark" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="spark" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/spark/sepolicy" name="device_spark_sepolicy" remote="spark" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="spark" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="spark" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="spark-12-legacy" remote="spark" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="spark-12-legacy-um" remote="spark" />
+
+  <!-- External -->
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="spark" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="spark" />
+  <project path="external/selinux" name="external_selinux" groups="pdk" remote="spark" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="spark" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="spark" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="spark" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="spark" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="spark" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="spark" />
+
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="spark" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="spark" />
+
+  <!-- Packages -->
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="spark" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="spark" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" groups="pdk" remote="spark" />
+  <project path="system/netd" name="system_netd" remote="spark" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="spark" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="spark" />
+  <project path="system/update_engine" name="system_update_engine" remote="spark" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="spark" />
+
+  <!-- Vendor -->
+  <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
+
+  <!-- External -->
+  <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="fluid-temp" />
+  <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk" remote="fluid-temp" />
+  <project path="external/mksh" name="external_mksh" groups="pdk" remote="fluid-temp" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="fluid-temp" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="fluid-temp" />
+  <project path="hardware/nxp/secure_element" name="hardware_nxp_secure_element" groups="pdk" remote="fluid-temp" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="fluid-12-caf" remote="fluid-temp" />
+
+  <!-- Packages -->
+  <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="fluid-temp" />
+
+  <!-- System -->
+  <project path="system/logging" name="system_logging" groups="pdk" remote="fluid-temp" />
+
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="fluid-temp" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="fluid-temp" />
+
+
+</manifest>
