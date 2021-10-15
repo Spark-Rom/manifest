@@ -21,7 +21,7 @@
 
   <remote  name="spark-gitlab"
            fetch="https://gitlab.com/spkal01"
-           revision="refs/heads/fire" />
+           revision="refs/heads/spark" />
 
   <remote  name="fluid-temp"
            fetch="https://github.com/Project-Fluid-Testing/"
@@ -118,6 +118,6 @@
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="fluid-temp" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="fluid-temp" />
-
+  <project path="vendor/gms" name="android_vendor_gms" remote="spark-gitlab" clone-depth="1" />
 
 </manifest>
