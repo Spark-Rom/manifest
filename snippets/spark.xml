@@ -29,6 +29,7 @@
 
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="spark" />
+  <project path="libcore" name="libcore" remote="spark" />
   <project path="manifest" name="manifest" remote="spark" />
 
   <!-- Bootable -->
@@ -61,6 +62,9 @@
   <project path="external/faceunlock" name="external_faceunlock" remote="spark" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="spark" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="spark" />
+  <project path="external/colorkt" name="external_colorkt" remote="spark" />
+  <project path="external/themelib" name="external_themelib" remote="spark" />
+
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
@@ -78,6 +82,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
