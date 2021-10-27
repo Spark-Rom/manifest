@@ -105,8 +105,6 @@
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="fluid-temp" />
-  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="fluid-temp" />
-  <project path="hardware/nxp/secure_element" name="hardware_nxp_secure_element" groups="pdk" remote="fluid-temp" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="fluid-12-caf" remote="fluid-temp" />
 
   <!-- Packages -->
