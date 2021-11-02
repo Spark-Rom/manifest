@@ -78,6 +78,7 @@
   <!-- Packages -->
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="spark" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
+  <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
