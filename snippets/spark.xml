@@ -98,6 +98,7 @@
   <!-- Vendor -->
   <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
   <project path="vendor/support" name="platform_vendor_support" remote="spark" />
+  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="spark" />
 
   <!-- External -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="fluid-temp" />
