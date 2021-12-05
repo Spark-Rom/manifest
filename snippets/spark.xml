@@ -74,6 +74,7 @@
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="spark" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="spark" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="spark" />
 
   <!-- Packages -->
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="spark" />
