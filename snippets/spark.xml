@@ -62,7 +62,7 @@
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="spark" />
   <project path="external/colorkt" name="external_colorkt" remote="spark" />
   <project path="external/themelib" name="external_themelib" remote="spark" />
-
+  <project path="external/tinyxml" name="external_tinyxml" remote="spark" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
