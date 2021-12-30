@@ -112,8 +112,14 @@
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="fluid-temp" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="fluid-12-caf" remote="fluid-temp" />
 
-  <!-- Packages -->
+  <!-- Modules -->
   <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="fluid-temp" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="spark" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="spark" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="spark" />
+
+  <!-- Providers-->
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="spark" />
 
   <!-- System -->
   <project path="system/logging" name="system_logging" groups="pdk" remote="fluid-temp" />
