@@ -162,6 +162,7 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="spark" />
 
   <!-- Packages -->
+   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="spark" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="spark" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
   <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
@@ -175,6 +176,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
 
   <!-- System -->
+  <project path="system/bt" name="system_bt" remote="spark" />
   <project path="system/core" name="system_core" groups="pdk" remote="spark" />
   <project path="system/netd" name="system_netd" remote="spark" />
   <project path="system/sepolicy" name="system_sepolicy" remote="spark" />
@@ -222,7 +224,11 @@
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="arrow" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="arrow" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="arrow" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="arrow" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="spark" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="arrow" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="arrow" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="arrow" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="arrow" />
