@@ -35,6 +35,11 @@
            fetch="https://github.com/Project-Fluid-Testing/"
            revision="fluid-12" />
 
+  <remote  name="lucchetto"
+           fetch="https://github.com/Lucchetto"
+           revision="master" />
+
+
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="spark" />
   <project path="libcore" name="libcore" remote="spark" />
@@ -141,6 +146,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="spark" />
 
   <!-- External -->
+  <project path="external/AndroidSystemBlur" name="AndroidSystemBlur" remote="lucchetto" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="spark" />
   <project path="external/faceunlock" name="external_faceunlock" remote="spark" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="spark" />
