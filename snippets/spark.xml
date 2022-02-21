@@ -39,6 +39,9 @@
            fetch="https://github.com/Lucchetto"
            revision="master" />
 
+  <remote  name="pe-gitlab"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="refs/heads/twelve" /> 
 
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="spark" />
@@ -146,9 +149,9 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="spark" />
 
   <!-- External -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="pe-gitlab" />
   <project path="external/AndroidSystemBlur" name="AndroidSystemBlur" remote="lucchetto" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="spark" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="spark" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="spark" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="spark" />
   <project path="external/colorkt" name="external_colorkt" remote="spark" />
@@ -177,6 +180,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="spark" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="spark" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
