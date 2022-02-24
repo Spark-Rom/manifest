@@ -205,6 +205,8 @@
   <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk" remote="fluid-temp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="fluid-temp" />
   <project path="external/Camera" name="external_Camera" remote="spark" />
+  <!-- Other additions -->
+  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="arrow" />
@@ -214,6 +216,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="spark" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="spark" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="spark" />
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="spark" />
 
   <!-- Providers-->
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="spark" />
