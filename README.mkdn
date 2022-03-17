@@ -1,0 +1,49 @@
+Project Spark
+===========
+
+
+Start off by following these steps:
+----------------------
+
+
+Create the directories
+----------------------
+
+As a first step, you'll have to create and enter a folder with the appropriate name.
+To do that, run these commands:
+
+```bash
+   mkdir spark
+   cd spark
+```
+
+To initialize your local repository, run this command:
+------------------------------------------------------
+
+```bash
+   repo init -u https://github.com/Spark-Rom/manifest -b spark
+```
+
+Afterwards, sync the source by running this command:
+----------------
+
+```bash
+repo sync --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
+
+
+Building Spark
+---------------
+
+In case you are building Mac OS X, you are required to install coreutils from MacPorts before you continue.
+In order to build, use this command:
+```bash
+   . build/env*
+   lunch spark_<devicecodename>-userdebug
+   mka bacon -j$(nproc --all)
+```
+
+After building:
+---------------
+
+Be sure to check our [**documents repo**](https://github.com/Spark-Rom/Stuff) for any queries.

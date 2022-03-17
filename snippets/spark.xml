@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+  
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+  
+  <remote name="spark"
+          fetch="https://github.com/Spark-Rom"
+          revision="refs/heads/spark"/>
+
+  <remote  name="evo"
+           fetch="https://github.com/Evolution-X"
+           revision="refs/heads/snow" />
+
+  <remote  name="devices"
+           fetch="https://github.com/Spark-Devices"
+           revision="refs/heads/spark" />
+
+  <remote  name="spark-gitlab"
+           fetch="https://gitlab.com/spkal01"
+           revision="refs/heads/spark" />
+
+  <remote  name="pe-gitlab"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="refs/heads/twelve" /> 
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           revision="refs/heads/arrow-12.0" />
+
+  <!-- Remove unused hardware repos -->
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/art" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/trusty" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/barbet" />
+  <remove-project name="device/google/barbet-kernel" />
+  <remove-project name="device/google/barbet-sepolicy" />
+  <remove-project name="device/google/bonito" />
+  <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/bonito-sepolicy" />
+  <remove-project name="device/google/bramble" />
+  <remove-project name="device/google/bramble-sepolicy" />
+  <remove-project name="device/google/coral" />
+  <remove-project name="device/google/coral-kernel" />
+  <remove-project name="device/google/coral-sepolicy" />
+  <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-kernel" />
+  <remove-project name="device/google/redbull-sepolicy" />
+  <remove-project name="device/google/redfin" />
+  <remove-project name="device/google/redfin-sepolicy" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
+  <remove-project name="device/google/fuchsia" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google_car" />
+  <remove-project name="device/linaro/dragonboard" />
+  <remove-project name="device/linaro/dragonboard-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/mediatek/wembley-sepolicy" />
+  <remove-project name="device/sample" />
+  <remove-project name="device/ti/beagle-x15" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
+
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/fastrpc" />
+  <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
+
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+
+  <!-- Device repos -->
+  <project path="device/spark/sepolicy" name="device_spark_sepolicy" remote="spark" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="spark" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="spark" />
+
+  <!-- External repos -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="pe-gitlab" />
+  <project path="external/fastrpc" name="external_fastrpc" remote="evo" />
+  <project path="external/libcxx" name="external_libcxx" remote="evo" />
+  <project path="external/openssh" name="ProtonAOSP/android_external_openssh" remote="github" revision="sc" />
+  <project path="external/selinux" name="external_selinux" remote="spark" />
+  <project path="external/sqlite" name="external_sqlite" remote="evo" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="spark" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r48" />
+  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="spark" />
+  <project path="frameworks/base" name="frameworks_base" remote="spark" />
+  <project path="frameworks/native" name="frameworks_native" remote="spark" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="spark" />
+
+  <!-- General repos -->
+  <project path="art" name="art" remote="spark" />
+  <project path="bionic" name="bionic" remote="spark" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="spark" />
+  <project path="build/make" name="build_make" remote="spark" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="spark" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="manifest" remote="spark" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="spark" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="spark" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="spark" />
+  <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" revision="lineage-19.1" remote="github">
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <!--linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" /-->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+    <!-- add namespace for BT adv audio, as required for QTI BT stack -->
+    <linkfile src="os_pickup_qssi_bt.bp" dest="device/qcom/qssi/Android.bp" />
+  </project>
+  <!--project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom" remote="arrow" revision="arrow-12.0-caf" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8952/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8960/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8994/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8994" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.0-caf-msm8996" /-->
+  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-msm8996" remote="github" />
+  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/audio" name="PixelExperience/hardware_qcom-caf_msm8996_audio" remote="github" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
+  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-msm8996" remote="github" />
+  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/display" name="PixelExperience/hardware_qcom-caf_msm8996_display" remote="github" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
+  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-msm8996" remote="github" />
+  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/media" name="PixelExperience/hardware_qcom-caf_msm8996_media" remote="github" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-msm8998" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-msm8998" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-msm8998" remote="github" />
+  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" groups="qcom,qcom_media" remote="arrow" revision="arrow-12.0-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-sdm845" remote="github" />
+  <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-sdm845" remote="github" />
+  <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-sdm845" remote="github" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-sm8150" remote="github" />
+  <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-sm8150" remote="github" />
+  <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-sm8150" remote="github" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-sm8250" remote="github" />
+  <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-sm8250" remote="github" />
+  <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-sm8250" remote="github" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-sm8350" remote="github" />
+  <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-sm8350" remote="github" />
+  <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-sm8350" remote="github" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="arrow" revision="arrow-12.0-caf" />
+  <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" remote="github" revision="arrow-12.0" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="evo" />
+  <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="spark" />
+  <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="spark" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="evo" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="evo" />
+
+  <!-- Services repos -->
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
+
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="spark" />
+
+  <!-- System repos -->
+  <project path="system/bt" name="system_bt" remote="evo" />
+  <project path="system/core" name="system_core" remote="spark" />
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="evo" />
+  <project path="system/media" name="system_media" remote="evo" />
+  <project path="system/security" name="system_security" remote="spark" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="spark" />
+  <project path="system/update_engine" name="system_update_engine" remote="spark" />
+  <project path="system/vold" name="system_vold" remote="spark" />
+
+  <!-- vendor repos -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
+  <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="evo" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="evo" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="evo" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="evo" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="evo" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="arrow"/>
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="arrow" />
+</manifest>
