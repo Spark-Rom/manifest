@@ -118,6 +118,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bt" />
@@ -271,6 +272,7 @@
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="spark" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="evo" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="evo" />
 
@@ -293,6 +295,7 @@
   <!-- vendor repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
+  <project path="vendor/support" name="platform_vendor_support" remote="spark" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="evo" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="evo" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="evo" />
