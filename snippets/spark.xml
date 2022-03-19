@@ -293,6 +293,7 @@
   <project path="system/vold" name="system_vold" remote="spark" />
 
   <!-- vendor repos -->
+  <project path="vendor/gms" name="android_vendor_gms" remote="spark-gitlab" clone-depth="1" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
   <project path="vendor/support" name="platform_vendor_support" remote="spark" />
