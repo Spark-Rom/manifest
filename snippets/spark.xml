@@ -152,6 +152,8 @@
   <project path="external/sqlite" name="external_sqlite" remote="evo" />
   <project path="external/tinycompress" name="external_tinycompress" remote="spark" />
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r48" />
+  <project path="external/colorkt" name="external_colorkt" remote="spark" />
+  <project path="external/themelib" name="external_themelib" remote="spark" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
 
   <!-- Framework repos -->
