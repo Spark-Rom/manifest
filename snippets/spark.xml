@@ -147,6 +147,8 @@
   <project path="device/spark/sepolicy" name="device_spark_sepolicy" remote="spark" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="spark" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="spark" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" groups="qcom,pdk-qcom" remote="spark" />
+
 
   <!-- External -->
   <project path="external/faceunlock" name="external_faceunlock" remote="pe-gitlab" />
