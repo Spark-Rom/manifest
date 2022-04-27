@@ -102,6 +102,7 @@
 
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/art" />
@@ -124,10 +125,12 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/security" />
@@ -164,6 +167,7 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
   <project path="frameworks/base" name="frameworks_base" remote="spark" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="spark" />
   <project path="frameworks/native" name="frameworks_native" remote="spark" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="spark" />
 
@@ -281,6 +285,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="evo" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="proton" />
 
@@ -293,6 +298,7 @@
   <!-- System repos -->
   <project path="system/bt" name="system_bt" remote="evo" />
   <project path="system/core" name="system_core" remote="spark" />
+  <project path="system/netd" name="system_netd" remote="spark" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="evo" />
   <project path="system/media" name="system_media" remote="evo" />
   <project path="system/security" name="system_security" remote="spark" />
@@ -314,4 +320,5 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="arrow" />
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="arrow"/>
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="arrow" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="arrow" />
 </manifest>
