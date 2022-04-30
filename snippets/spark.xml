@@ -103,6 +103,7 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/libs/systemui" />
+  <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/art" />
@@ -117,6 +118,8 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -138,20 +141,28 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/packages/modules/DnsResolver" />
-
+  <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/libcore" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
   <!-- Device repos -->
   <project path="device/spark/sepolicy" name="device_spark_sepolicy" remote="spark" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="spark" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="spark" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="spark" />
 
   <!-- External repos -->
+  <project path="external/AndroidSystemBlur" name="Lucchetto/AndroidSystemBlur" remote="github"/>
   <project path="external/faceunlock" name="external_faceunlock" remote="pe-gitlab" />
   <project path="external/fastrpc" name="external_fastrpc" remote="evo" />
   <project path="external/libcxx" name="external_libcxx" remote="evo" />
@@ -162,12 +173,15 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r48" />
   <project path="external/colorkt" name="external_colorkt" remote="spark" />
   <project path="external/themelib" name="external_themelib" remote="spark" />
+  <project path="external/zlib-ng" name="external_zlib-ng" remote="spark" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="spark" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
   <project path="frameworks/base" name="frameworks_base" remote="spark" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="spark" />
+  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="spark" />
   <project path="frameworks/native" name="frameworks_native" remote="spark" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="spark" />
 
@@ -283,17 +297,24 @@
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="spark" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
+  <project path="packages/apps/SparkWallpaperStub" name="packages_apps_SparkWallpaperStub" remote="spark" />
+  <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="spark" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="evo" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="proton" />
+  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="spark" />
 
   <!-- Services repos -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
 
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="spark" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="spark" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="spark" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="spark" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="spark" />
 
   <!-- System repos -->
   <project path="system/bt" name="system_bt" remote="evo" />
@@ -305,6 +326,11 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="spark" />
   <project path="system/update_engine" name="system_update_engine" remote="spark" />
   <project path="system/vold" name="system_vold" remote="spark" />
+
+  <project path="libcore" name="libcore" remote="spark" />
+
+  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="spark"/>
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="spark"/>
 
   <!-- vendor repos -->
   <project path="vendor/gms" name="android_vendor_gms" remote="spark-gitlab" clone-depth="1" />
