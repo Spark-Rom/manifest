@@ -161,8 +161,8 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="spark" />
 
   <!-- External repos -->
-  <project path="external/AndroidSystemBlur" name="Lucchetto/AndroidSystemBlur" remote="github"/>
-  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github"/>
+  <project path="external/AndroidSystemBlur" name="Lucchetto/AndroidSystemBlur" remote="github" revision="master"/>
+  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="12.1"/>
   <project path="external/faceunlock" name="external_faceunlock" remote="pe-gitlab" />
   <project path="external/fastrpc" name="external_fastrpc" remote="evo" />
   <project path="external/libcxx" name="external_libcxx" remote="evo" />
