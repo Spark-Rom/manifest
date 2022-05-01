@@ -136,6 +136,7 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
@@ -323,6 +324,7 @@
   <project path="system/netd" name="system_netd" remote="spark" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="evo" />
   <project path="system/media" name="system_media" remote="evo" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="spark" />
   <project path="system/security" name="system_security" remote="spark" />
   <project path="system/sepolicy" name="system_sepolicy" remote="spark" />
   <project path="system/update_engine" name="system_update_engine" remote="spark" />
