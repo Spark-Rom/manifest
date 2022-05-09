@@ -112,6 +112,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/fastrpc" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/selinux" />
@@ -178,6 +179,7 @@
   <project path="external/zlib-ng" name="external_zlib-ng" remote="spark" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="spark" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="spark" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
