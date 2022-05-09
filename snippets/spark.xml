@@ -121,6 +121,7 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -180,6 +181,7 @@
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="spark" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="spark" />
+  <project path="external/mksh" name="external_mksh" remote="spark" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
