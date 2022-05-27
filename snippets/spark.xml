@@ -302,14 +302,13 @@
   <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" remote="github" revision="arrow-12.1" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="evo" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="spark" />
   <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="spark" />
-  <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="spark" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="spark" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
   <project path="packages/apps/SparkWallpaperStub" name="packages_apps_SparkWallpaperStub" remote="spark" />
-  <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="spark" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="spark" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
@@ -330,7 +329,7 @@
   <project path="packages/modules/adb" name="packages_modules_adb" remote="spark" />
 
   <!-- System repos -->
-  <project path="system/bt" name="system_bt" remote="evo" />
+  <project path="system/bt" name="system_bt" remote="spark" />
   <project path="system/core" name="system_core" remote="spark" />
   <project path="system/netd" name="system_netd" remote="spark" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="evo" />
@@ -350,6 +349,7 @@
   <project path="vendor/gms" name="android_vendor_gms" remote="spark-gitlab" clone-depth="1" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
+  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="spark" />
   <project path="vendor/support" name="platform_vendor_support" remote="spark" />
   <project path="vendor/pixel-framework" name="PixelExperience/vendor_pixel-framework" remote="github" revision="twelve" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="evo" />
