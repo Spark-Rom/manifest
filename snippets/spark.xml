@@ -128,6 +128,7 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -306,6 +307,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="spark" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="spark" />
   <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="spark" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="spark" />
