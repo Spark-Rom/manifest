@@ -105,6 +105,9 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Nfc" />
@@ -126,6 +129,7 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/modules/Connectivity" />
@@ -143,6 +147,10 @@
   <project path="external/colorkt" name="external_colorkt" remote="spark" />
   <project path="external/themelib" name="external_themelib" remote="spark" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="spark" />
+  <project path="external/mksh" name="external_mksh" remote="spark" />
+  <project path="system/libziparchive" name="system_libziparchive" remote="spark" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="spark" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
