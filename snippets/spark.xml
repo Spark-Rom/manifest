@@ -144,6 +144,7 @@
 
   <!-- External repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="spark" />
+  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13"/>  
   <project path="external/colorkt" name="external_colorkt" remote="spark" />
   <project path="external/themelib" name="external_themelib" remote="spark" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
