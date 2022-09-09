@@ -219,12 +219,15 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="spark" />
+  <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="spark" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="evo" />
 
   <!-- Services repos -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
-
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="spark" />
+  
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="spark" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="spark" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="spark" />
@@ -249,6 +252,7 @@
   <project path="vendor/gms" name="android_vendor_gms" remote="spark-gitlab" clone-depth="1" />
   <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
   <project path="vendor/support" name="platform_vendor_support" remote="spark" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="arrow"/>
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="arrow" />
