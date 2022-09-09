@@ -211,7 +211,6 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="spark" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
   <project path="packages/apps/SparkWallpaperStub" name="packages_apps_SparkWallpaperStub" remote="spark" />
