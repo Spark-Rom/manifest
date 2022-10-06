@@ -35,6 +35,10 @@
            fetch="https://github.com/ProtonAOSP"
            revision="refs/heads/sc-v2" />
 
+  <remote  name="kscope-gitlab"
+           fetch="https://gitlab.com/Project-Kaleidoscope"
+           revision="refs/heads/sunflowerleaf" />
+
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
@@ -123,15 +127,19 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -144,6 +152,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="spark" />
 
   <!-- External repos -->
+  <project path="external/Apps" name="external_Apps" remote="spark" />
   <project path="external/tinycompress" name="external_tinycompress" remote="spark" />
   <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13"/>  
   <project path="external/colorkt" name="external_colorkt" remote="spark" />
@@ -153,6 +162,7 @@
   <project path="external/mksh" name="external_mksh" remote="spark" />
   <project path="system/libziparchive" name="system_libziparchive" remote="spark" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="spark" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="spark" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
@@ -161,6 +171,7 @@
   <project path="frameworks/libs/net" name="frameworks_libs_net" remote="spark" />
   <project path="frameworks/native" name="frameworks_native" remote="spark" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="spark" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="spark" />
 
   <!-- General repos -->
   <project path="art" name="art" remote="spark" />
@@ -217,9 +228,11 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
+  <project path="packages/apps/ParallelSpacePrebuilt" name="android_packages_apps_ParallelSpacePrebuilt" remote="kscope-gitlab" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="spark" />
   <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="spark" />
+  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="spark" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="evo" />
 
   <!-- Services repos -->
@@ -231,6 +244,8 @@
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="spark" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="spark" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="spark" />
+  <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="spark" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="spark" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="spark" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="spark" />
 
@@ -238,7 +253,9 @@
   <project path="system/core" name="system_core" remote="spark" />
   <project path="system/netd" name="system_netd" remote="spark" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="spark" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="spark" />
   <project path="system/media" name="system_media" remote="spark" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="spark" />
   <project path="system/security" name="system_security" remote="spark" />
   <project path="system/sepolicy" name="system_sepolicy" remote="spark" />
   <project path="system/update_engine" name="system_update_engine" remote="spark" />
@@ -252,6 +269,7 @@
   <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
   <project path="vendor/support" name="platform_vendor_support" remote="spark" />
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="arrow"/>
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="spark" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="arrow" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="arrow" />
