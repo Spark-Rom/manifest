@@ -255,7 +255,7 @@
   <project path="system/core" name="system_core" remote="spark" />
   <project path="system/netd" name="system_netd" remote="spark" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="spark" />
-  <project path="system/libhidl" name="android_system_libhidl" remote="spark" />
+  <project path="system/libhidl" name="system_libhidl" remote="spark" />
   <project path="system/media" name="system_media" remote="spark" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="spark" />
   <project path="system/security" name="system_security" remote="spark" />
