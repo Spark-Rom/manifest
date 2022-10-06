@@ -100,6 +100,7 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/libs/systemui" />
+
   <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -159,6 +160,7 @@
   <project path="external/themelib" name="external_themelib" remote="spark" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="spark" />
+  <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="spark" />
   <project path="external/mksh" name="external_mksh" remote="spark" />
   <project path="system/libziparchive" name="system_libziparchive" remote="spark" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="spark" />
