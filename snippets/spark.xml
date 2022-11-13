@@ -114,6 +114,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Nfc" />
@@ -157,6 +158,7 @@
 
   <!-- External repos -->
   <project path="external/AndroidSystemBlur" name="AndroidSystemBlur" remote="spark" />
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="spark" />
   <project path="external/Apps" name="external_Apps" remote="spark" />
   <project path="external/tinycompress" name="external_tinycompress" remote="spark" />
   <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13"/>
