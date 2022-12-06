@@ -115,6 +115,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Nfc" />
@@ -173,6 +174,7 @@
   <project path="system/libziparchive" name="system_libziparchive" remote="spark" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="spark" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="spark" />
+  <project path="external/libvpx" name="external_libvpx" remote="spark" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
