@@ -79,7 +79,6 @@
   <remove-project name="device/mediatek/wembley-sepolicy" />
   <remove-project name="device/google/gs101" />
   <remove-project name="device/google/gs101-sepolicy" />
-  <remove-project name="device/google/gs-common" />
   <remove-project name="device/google/raviole" />
   <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/trout" />
@@ -116,6 +115,7 @@
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Nfc" />
@@ -159,6 +159,7 @@
 
   <!-- External repos -->
   <project path="external/AndroidSystemBlur" name="AndroidSystemBlur" remote="spark" />
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="spark" />
   <project path="external/Apps" name="external_Apps" remote="spark" />
   <project path="external/tinycompress" name="external_tinycompress" remote="spark" />
   <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13"/>
