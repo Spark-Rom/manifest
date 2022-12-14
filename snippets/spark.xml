@@ -8,7 +8,7 @@
            fetch="https://gitlab.com" />
   
   <remote name="spark"
-          fetch="ssh://git@github.com/Spark-Rom/"
+          fetch="https://github.com/Spark-Rom"
           revision="refs/heads/pyro"/>
 
   <remote  name="evo"
