@@ -180,7 +180,8 @@
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="spark" />
   <project path="external/libvpx" name="external_libvpx" remote="spark" />
   <project path="external/tigervnc" name="external_tigervnc" remote="spark" />
-
+  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
+  
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
   <project path="frameworks/base" name="frameworks_base" remote="spark" />
