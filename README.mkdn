@@ -1,36 +1,49 @@
-LineageOS
+Project Spark
 ===========
 
-Getting started
+
+Start off by following these steps:
+----------------------
+
+
+Create the directories
+----------------------
+
+As a first step, you'll have to create and enter a folder with the appropriate name.
+To do that, run these commands:
+
+```bash
+   mkdir spark
+   cd spark
+```
+
+To initialize your local repository, run this command:
+------------------------------------------------------
+
+```bash
+   repo init -u https://github.com/Spark-Rom/manifest -b pyro
+```
+
+Afterwards, sync the source by running this command:
+----------------
+
+```bash
+repo sync --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
+
+
+Building Spark
 ---------------
 
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
-
-To initialize your local repository using the LineageOS trees, use a command like this:
+In case you are building Mac OS X, you are required to install coreutils from MacPorts before you continue.
+In order to build, use this command:
+```bash
+   . build/env*
+   lunch spark_<devicecodename>-userdebug
+   mka bacon -j$(nproc --all)
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
-```
-Then to sync up:
-```
-repo sync
-```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
+After building:
+---------------
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
-
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
-
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+Be sure to check our [**documents repo**](https://github.com/Spark-Rom/Stuff) for any queries.
