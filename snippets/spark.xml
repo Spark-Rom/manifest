@@ -43,7 +43,8 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="spark" />
 
   <!-- External repos -->
-  <project path="external/faceunlock" name="external_faceunlock" remote="spark-gitlab" />  
+  <project path="external/faceunlock" name="external_faceunlock" remote="spark-gitlab" />
+  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
