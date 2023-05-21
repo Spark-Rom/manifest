@@ -51,6 +51,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="spark" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="spark" />
   <project path="frameworks/native" name="frameworks_native" remote="spark" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="spark" />
 
   <!-- General repos -->
   <project path="art" name="art" remote="spark" />
