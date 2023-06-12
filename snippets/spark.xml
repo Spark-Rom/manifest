@@ -75,6 +75,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="spark" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="spark" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
