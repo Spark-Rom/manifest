@@ -21,7 +21,7 @@ To initialize your local repository, run this command:
 ------------------------------------------------------
 
 ```bash
-   repo init -u https://github.com/Spark-Rom/manifest -b pyro
+   repo init -u https://github.com/Spark-Rom/manifest -b pyro-next
 ```
 
 Afterwards, sync the source by running this command:
