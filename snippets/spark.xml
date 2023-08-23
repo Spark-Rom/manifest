@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <remote name="spark"
+          fetch="https://github.com/Spark-Rom"
+          revision="refs/heads/pyro-next"/>
+
+  <remote  name="evo"
+           fetch="https://github.com/Evolution-X"
+           revision="refs/heads/snow" />
+
+  <remote  name="devices"
+           fetch="https://github.com/Spark-Devices"
+           revision="refs/heads/pyro" />
+
+  <remote  name="spark-gitlab"
+           fetch="https://gitlab.com/spkal01"
+           revision="refs/heads/pyro" />
+
+  <remote  name="pe-gitlab"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="refs/heads/thirteen" /> 
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS"
+           revision="refs/heads/arrow-13.0" />
+
+  <remote  name="proton"
+           fetch="https://github.com/ProtonAOSP"
+           revision="refs/heads/sc-v2" />
+
+  <remote  name="kscope-gitlab"
+           fetch="https://gitlab.com/Project-Kaleidoscope"
+           revision="refs/heads/sunflowerleaf" />
+
+  <!-- Device repos -->
+  <project path="device/spark/sepolicy" name="device_spark_sepolicy" remote="spark" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="spark" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="spark" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="spark" />
+
+  <!-- External repos -->
+  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="spark" />
+  <project path="frameworks/base" name="frameworks_base" remote="spark" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="spark" />
+  <project path="frameworks/native" name="frameworks_native" remote="spark" />
+  <project path="external/yifan" name="platform_external_yifan" remote="spark" />
+
+  <!-- General repos -->
+  <project path="art" name="art" remote="spark" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="spark" />
+  <project path="bionic" name="bionic" remote="spark" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="spark" />
+  <project path="build/make" name="build_make" remote="spark" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="spark" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="manifest" remote="spark" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
+  <project path="packages/apps/SparkWallpaperStub" name="packages_apps_SparkWallpaperStub" remote="spark" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="spark" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
+  <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="spark" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="spark" />  
+  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="spark" />
+  <project path="packages/apps/FaceUnlock" name="platform_packages_apps_FaceUnlock" remote="spark" />
+
+  <!-- Services repos -->
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="spark" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="spark" />
+
+  <!-- Modules repos -->
+  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="spark" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="spark" />
+
+  <!-- System repos -->
+  <project path="system/core" name="system_core" remote="spark" />
+
+  <!-- vendor repos -->
+  <project path="vendor/gms" name="vendor_gms" remote="spark-gitlab" />  
+  <project path="vendor/spark" name="platform_vendor_spark" remote="spark" />
+  <project path="vendor/addons" name="vendor_addons" remote="spark" />
+
+</manifest>
