@@ -89,9 +89,6 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="spark" />
 
-  <!-- Hardware repos -->
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="spark" />
-
   <!-- Modules repos -->
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="spark" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="spark" />
