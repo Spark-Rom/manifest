@@ -42,6 +42,9 @@
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" remote="spark" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="spark" />
 
+  <!-- Hardware repos -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="spark" />
+
   <!-- External repos -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
   <project path="external/tigervnc" name="external_tigervnc" remote="spark" />
