@@ -44,6 +44,7 @@
 
   <!-- External repos -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+  <project path="external/tigervnc" name="external_tigervnc" remote="spark" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark" />
@@ -80,7 +81,8 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="spark" />
   <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="spark" />
-  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="spark" />  
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="spark" />
+  <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="spark" />  
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="spark" />
   <project path="packages/apps/FaceUnlock" name="platform_packages_apps_FaceUnlock" remote="spark" />
 
@@ -88,6 +90,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="spark" />
+  <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" remote="spark" />
 
   <!-- Modules repos -->
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="spark" />
@@ -95,6 +98,7 @@
 
   <!-- System repos -->
   <project path="system/core" name="android_system_core" remote="spark" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="spark" />
 
   <!-- vendor repos -->
   <project path="vendor/gms" name="vendor_gms" remote="spark-gitlab" />  
